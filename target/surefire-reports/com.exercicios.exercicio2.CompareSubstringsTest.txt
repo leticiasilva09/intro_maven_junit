@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.exercicios.exercicio2.CompareSubstringsTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s -- in com.exercicios.exercicio2.CompareSubstringsTest

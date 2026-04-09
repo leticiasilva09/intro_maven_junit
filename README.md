@@ -90,4 +90,4 @@ mvn test
 
 ---
 
-Desenvolvido como atividade acadêmica da disciplia de Teste e Qualidade de Software.
+Desenvolvido como atividade acadêmica da disciplina de Teste e Qualidade de Software.

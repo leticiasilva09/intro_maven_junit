@@ -9,8 +9,8 @@ automatizados com JUnit.
 
 Inicialmente, configurei o ambiente instalando o Maven e integrando-o ao VS Code. Em seguida, criei um projeto Maven usando o archetype `maven-archetype-quickstart`, o que já gerou a estrutura padrão:
 
-src/main/java/com/exercicios: código principal
-src/test/java/com/exercicios: testes
+-   src/main/java/com/exercicios: código principal
+-   src/test/java/com/exercicios: testes
 
 Depois disso, organizei os exercícios em pacotes separados:
 

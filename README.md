@@ -14,9 +14,9 @@ Inicialmente, configurei o ambiente instalando o Maven e integrando-o ao VS Code
 
 Depois disso, organizei os exercícios em pacotes separados:
 
-com.exercicios.exercicio1
-com.exercicios.exercicio2
-com.exercicios.exercicio3
+-   com.exercicios.exercicio1
+-   com.exercicios.exercicio2
+-   com.exercicios.exercicio3
 
 Também criei a mesma estrutura dentro da pasta de testes.
 

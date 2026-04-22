@@ -1,23 +1,23 @@
 package com.exercicios.exercicio2;
 
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
 public class CompareSubstrings {
 
     public static String getSmallestAndLargest(String s, int k) {
 
-        String menor = s.substring(0, k);
-        String maior = s.substring(0, k);
+        List<String> substrings = new ArrayList<>();
 
         for (int i = 0; i <= s.length() - k; i++) {
-            String atual = s.substring(i, i + k);
-
-            if (atual.compareTo(menor) < 0) {
-                menor = atual;
-            }
-
-            if (atual.compareTo(maior) > 0) {
-                maior = atual;
-            }
+            substrings.add(s.substring(i, i + k));
         }
+
+        Collections.sort(substrings);
+
+        String menor = substrings.get(0);
+        String maior = substrings.get(substrings.size() - 1);
 
         return menor + "\n" + maior;
     }
